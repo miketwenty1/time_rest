@@ -9,8 +9,8 @@
 (defn foo [x] (str "Hello, " x))
 ;;(defn timetest [] (new java.util.Date.))
 (defn now [] (str(new java.util.Date)))
-(def date (java.util.Date.))
-(defn now_time [] (.format (java.text.SimpleDateFormat. "HH:mm:ss") date)) 
+(defn date [] (new java.util.Date))
+(defn now_time [] (.format (java.text.SimpleDateFormat. "HH:mm:ss") (date))) 
 
 (defroutes my_routes
   (GET "/" [] (view/index-page))
