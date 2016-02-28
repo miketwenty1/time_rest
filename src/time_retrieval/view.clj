@@ -5,4 +5,4 @@
 	(html5
 	[:html
 	 [:head]
-	 [:body "test html5 page</br>.. go to 'http://localhost:3000/time'</br>this should show the time"]]))
+	 [:body "test html5 page</br>.. go to 'http://localhost:3000/time_of_day'</br>this should show the time"]]))
